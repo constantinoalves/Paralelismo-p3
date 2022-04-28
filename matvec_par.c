@@ -84,6 +84,8 @@ int main(int argc, char *argv[] ) {
             MPI_Send(&comp_time, 1, MPI_INT, 0, 2, MPI_COMM_WORLD);
         }
     }
+    free(part_matrix);
+    free(part_result);
     MPI_Finalize();
     return 0;
 }
