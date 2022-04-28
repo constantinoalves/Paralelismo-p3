@@ -5,7 +5,7 @@
 
 #define DEBUG 0
 
-#define N 4096
+#define N 2048
 
 int main(int argc, char *argv[] ) {
 
